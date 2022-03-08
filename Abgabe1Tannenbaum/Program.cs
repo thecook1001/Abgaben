@@ -33,7 +33,7 @@ namespace Weihnachtsbaum
         //Methoden Start
 
         //Zahl Einlesen
-        static int ReadNumberInt(string text, int min = -2147483648, int max = 2147483647)
+        static int ReadNumberInt(string text, int min = int.MinValue, int max = int.MaxValue)
         {
             int output;
             bool didParse;
