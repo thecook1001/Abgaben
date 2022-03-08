@@ -15,7 +15,7 @@ namespace Weihnachtsbaum
         private const int MAXIMIZE = 3;
         //Import für fullscreen Ende
 
-        public static void Main()//string[] args
+        public static void Main()
         {
             Console.Title = "Weihnachtsbaum";
             Fullscreen();
@@ -173,7 +173,7 @@ namespace Weihnachtsbaum
         //Fullscreen
         static void Fullscreen()
         {
-            Console.WriteLine("Wollen sie in denn Vollbildmodus wechseln ? (V=Vollbild)");
+            Console.WriteLine("Wollen sie in den Vollbildmodus wechseln ? (V=Vollbild)");
             string? doFullscreen = Console.ReadLine();
             if (doFullscreen == "V" || doFullscreen == "v")
             {
